@@ -18,3 +18,5 @@ Once you've imported nltk type `nltk.download()` and select the words package un
 + If you want a list of all words type `word_list` into the python shell after running the code.
 
 So `letterT` gives all words that start with 'T', `letter5` gives all five letter words, and `letterT5` gives all five letter words that start with 'T'
+
+If you want the length of a list do `len(list-name)` for example `len(letterT5)` out puts the length of `letterT5`(695)
