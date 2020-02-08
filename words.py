@@ -11,7 +11,7 @@ To do this in your terminal/command prompt type
 then in the python shell enter `import nltk` 
 Once you've imported nltk type `nltk.download()` and select the words package under corpus or alternatively install all.
 
- + The are 672 lists to choose from. You can search for words that are a certain length, words that start with a certain letter, or words that start with a certain letter and are a certain length long.
+ + The are 698 lists to choose from. You can search for words that are a certain length, words that start with a certain letter, or words that start with a certain letter and are a certain length long.
 
  + If you want a list of all words that start with 'A', you'd type `letterA` into the python shell after running the code. This works for `letterA`, `letterB`, `letterC`, ETC
 
@@ -19,7 +19,9 @@ Once you've imported nltk type `nltk.download()` and select the words package un
 
  + If you want a list of all words that are three letters long and start with 'A', you'd type `letterA3` into the python shell after running the code. This works for all 26 letters and up to 24 letter words. 
 
-+ If you want a list of all words type `word_list` into the python shell after running the code.
+ + If you want a list of all words type `word_list` into the python shell after running the code.
+
+ + If you want a list of all words that contains the letter 'A' you can enter `conatins_letterA` this works for all 26 letters
 
 So `letterT` gives all words that start with 'T', `letter5` gives all five letter words, and `letterT5` gives all five letter words that start with 'T'
 
@@ -82,6 +84,33 @@ letterY = []
 letterZ = []
 
 # ----------------
+contains_letterA = []
+contains_letterB = []
+contains_letterC = []
+contains_letterD = []
+contains_letterE = []
+contains_letterF = []
+contains_letterG = []
+contains_letterH = []
+contains_letterI = []
+contains_letterJ = []
+contains_letterK = []
+contains_letterL = []
+contains_letterM = []
+contains_letterN = []
+contains_letterO = []
+contains_letterP = []
+contains_letterQ = []
+contains_letterR = []
+contains_letterS = []
+contains_letterT = []
+contains_letterU = []
+contains_letterV = []
+contains_letterW = []
+contains_letterX = []
+contains_letterY = []
+contains_letterZ = []
+#----------------------------
 # a
 
 letterA1 = []
@@ -2142,4 +2171,58 @@ for i in range(len(word_list)):
         list.append(letterY, word_list[i])
     if x == 'z':
         list.append(letterZ, word_list[i])
-#love ~ the walrus community
+for i in range(len(word_list)):
+    x = word_list[i]
+    if 'a' in x.lower():
+        list.append(contains_letterA, word_list[i])
+    if 'b' in x.lower():
+        list.append(contains_letterB, word_list[i])
+    if 'c' in x.lower():
+        list.append(contains_letterC, word_list[i])
+    if 'd' in x.lower():
+        list.append(contains_letterD, word_list[i])
+    if 'e' in x.lower():
+        list.append(contains_letterE, word_list[i])
+    if 'f' in x.lower():
+        list.append(contains_letterF, word_list[i])
+    if 'g' in x.lower():
+        list.append(contains_letterG, word_list[i])
+    if 'h' in x.lower():
+        list.append(contains_letterH, word_list[i])       
+    if 'i' in x.lower():
+        list.append(contains_letterI, word_list[i])
+    if 'j' in x.lower():
+        list.append(contains_letterJ, word_list[i])
+    if 'k' in x.lower():
+        list.append(contains_letterK, word_list[i])
+    if 'l' in x.lower():
+        list.append(contains_letterL, word_list[i])
+    if 'm' in x.lower():
+        list.append(contains_letterM, word_list[i])
+    if 'n' in x.lower():
+        list.append(contains_letterN, word_list[i])
+    if 'o' in x.lower():
+        list.append(contains_letterO, word_list[i])
+    if 'p' in x.lower():
+        list.append(contains_letterP, word_list[i])
+    if 'q' in x.lower():
+        list.append(contains_letterQ, word_list[i])
+    if 'r' in x.lower():
+        list.append(contains_letterR, word_list[i])
+    if 's' in x.lower():
+        list.append(contains_letterS, word_list[i])
+    if 't' in x.lower():
+        list.append(contains_letterT, word_list[i])       
+    if 'u' in x.lower():
+        list.append(contains_letterU, word_list[i])
+    if 'v' in x.lower():
+        list.append(contains_letterV, word_list[i])
+    if 'w' in x.lower():
+        list.append(contains_letterW, word_list[i])
+    if 'x' in x.lower():
+        list.append(contains_letterX, word_list[i])        
+    if 'y' in x.lower():
+        list.append(contains_letterY, word_list[i])
+    if 'z' in x.lower():
+        list.append(contains_letterZ, word_list[i])
+
